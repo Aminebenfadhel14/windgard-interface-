@@ -68,3 +68,5 @@ npm run typecheck
 - Claude input capped at ~8k tokens (`lib/tokens.ts`).
 - Rate limit 10 req/min/user on AI routes (Upstash; no-op in dev without env vars).
 - Every AI call logged to `ai_call_logs` with latency, tokens, and estimated cost. Inputs/outputs stored only when the user consented (`consent_training`) — this is your future training dataset, collected legally.
+
+amine
